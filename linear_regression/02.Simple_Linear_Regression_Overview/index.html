@@ -9,13 +9,15 @@
       
       
       
+        <link rel="prev" href="../../param_estimation/01.Maximum_Likelihood_Estimation/">
+      
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.7">
     
     
       
-        <title>Simple Linear Regression Overview - A Stat Hobbyist's Notebook</title>
+        <title>Simple Linear Regression Overview - A Stat Hobbyist's Page</title>
       
     
     
@@ -73,7 +75,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="A Stat Hobbyist&#39;s Notebook" class="md-header__button md-logo" aria-label="A Stat Hobbyist's Notebook" data-md-component="logo">
+    <a href="../.." title="A Stat Hobbyist&#39;s Page" class="md-header__button md-logo" aria-label="A Stat Hobbyist's Page" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -86,7 +88,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            A Stat Hobbyist's Notebook
+            A Stat Hobbyist's Page
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -163,13 +165,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="A Stat Hobbyist&#39;s Notebook" class="md-nav__button md-logo" aria-label="A Stat Hobbyist's Notebook" data-md-component="logo">
+    <a href="../.." title="A Stat Hobbyist&#39;s Page" class="md-nav__button md-logo" aria-label="A Stat Hobbyist's Page" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    A Stat Hobbyist's Notebook
+    A Stat Hobbyist's Page
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -230,8 +232,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../01.Maximum_Likelihood_Estimation/" class="md-nav__link">
-        Maximum Likelihood Estimation (MLE)
+      <a href="../../param_estimation/01.Maximum_Likelihood_Estimation/" class="md-nav__link">
+        Maximum Likelihood Estimation
       </a>
     </li>
   
@@ -250,16 +252,18 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
       
       
         
@@ -272,7 +276,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Linear Regression
@@ -283,11 +287,86 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../02.Simple_Linear_Regression_Overview/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Simple Linear Regression Overview
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Simple Linear Regression Overview
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-simple-linear-regression" class="md-nav__link">
+    1. What is Simple Linear Regression?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-how-to-estimate-the-coefficients-of-simple-linear-regression-model" class="md-nav__link">
+    2. How to Estimate the Coefficients of Simple Linear Regression Model?
+  </a>
+  
+    <nav class="md-nav" aria-label="2. How to Estimate the Coefficients of Simple Linear Regression Model?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-introdction-of-ordinay-least-sqaures-ols" class="md-nav__link">
+    2.1) Introdction of Ordinay Least sqaures (OLS)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-why-minimizing-the-rss-is-by-far-the-most-widely-used" class="md-nav__link">
+    2.2) Why Minimizing the RSS is by far the most widely used?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-assessing-the-accuracy-of-the-coefficient-estimates" class="md-nav__link">
+    3. Assessing the Accuracy of the Coefficient Estimates
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
