@@ -9,17 +9,17 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../linear_regression/02.Simple_Linear_Regression_Overview/">
+        <link rel="next" href="../../linear_regression/01.Parameter_Estimation/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.9">
     
     
       
-        <title>Maximum Likelihood Estimation - A Stat Hobbyist's Page</title>
+        <title>01. t-distribution - A Stat Hobbyist's Page</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#maximum-likelihood-estimation" class="md-skip">
+        <a href="#01-t-distribution" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Maximum Likelihood Estimation
+              01. t-distribution
             
           </span>
         </div>
@@ -211,20 +211,32 @@
       
         
           
+            
+          
+        
+          
         
       
       
-        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-          Param Estimation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Test Statistics</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Param Estimation
+          Test Statistics
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
           
             
               
@@ -241,54 +253,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Maximum Likelihood Estimation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Maximum Likelihood Estimation
+        01. t-distribution
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-mle" class="md-nav__link">
-    What is MLE?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-parameter" class="md-nav__link">
-    What is parameter?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-is-it-preferred-over-others" class="md-nav__link">
-    Why is it preferred over others?
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -322,17 +289,19 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-          Linear Regression
+          Simple Linear Regression
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Linear Regression
+          Simple Linear Regression
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -342,8 +311,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linear_regression/02.Simple_Linear_Regression_Overview/" class="md-nav__link">
-        Simple Linear Regression Overview
+      <a href="../../linear_regression/01.Parameter_Estimation/" class="md-nav__link">
+        01. Parameter Estimation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../linear_regression/02.Overview/" class="md-nav__link">
+        02. Concept Overview
       </a>
     </li>
   
@@ -375,35 +358,6 @@
   
     
   
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-mle" class="md-nav__link">
-    What is MLE?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-parameter" class="md-nav__link">
-    What is parameter?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-is-it-preferred-over-others" class="md-nav__link">
-    Why is it preferred over others?
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1455,7 +1409,7 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="maximum-likelihood-estimation">Maximum Likelihood Estimation<a class="anchor-link" href="#maximum-likelihood-estimation">&#182;</a></h1>
+<h1 id="01-t-distribution">01. t-distribution<a class="anchor-link" href="#01-t-distribution">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -1466,7 +1420,10 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="what-is-mle">What is MLE?<a class="anchor-link" href="#what-is-mle">&#182;</a></h2><p>Maximum likelihood estimation is a method that determines values for the parameters of a model. The parameter values are found such that they maximise the likelihood that the process described by the model produced the data that were actually observed.</p>
+<blockquote>
+<p>At the beginning of the twentieth century, William S.Gosset, a statistician for Guinness Breweries in Ireland, <strong>wanted to make inferences about the mean when sigma was unknown</strong>. Because Guinness employees were not permitted to publish research work under their own names, Gosset adopted the pseudonym &quot;Student&quot;. The distribution that he developed is known as Student's t distribution and is commonly referred to as the t distribution.</p>
+<p>Source: Business Statistics;A First Course (David M.Levine, Timothy C.Krehbiel, Mark K.Berenson</p>
+</blockquote>
 
 </div>
 </div>
@@ -1478,9 +1435,7 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="what-is-parameter">What is parameter?<a class="anchor-link" href="#what-is-parameter">&#182;</a></h2><p>In statistics, a parameter represents a fixed value that describes a characteristic of a relationship between variables. Imagine you're trying to understand the relationship between the number of rooms in a house and its price. You might think that there's a hidden, fixed relationship that determines how these two factors are related, like a universal rule.</p>
-<p>For example, the relationship might look like: (house price) = €5,000 x (number of rooms) + €3,000. In this case, the €5,000 represents the increase in the house price for each additional room, and the €3,000 represents the baseline house price when there are no rooms. These values before the varaible, €5,000 and €3,000, are called parameters.</p>
-<p>Parameters help us quantify and understand the underlying patterns in the relationships between variables, like the number of rooms and house prices in our example. By estimating these parameters from data, we can make predictions and draw insights about the relationship we're studying</p>
+<p>source: <a href="https://youtu.be/QZ7kgmhdIwA">Test Statistics: Crash Course Statistics #26</a></p>
 
 </div>
 </div>
@@ -1492,33 +1447,6 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="why-is-it-preferred-over-others">Why is it preferred over others?<a class="anchor-link" href="#why-is-it-preferred-over-others">&#182;</a></h2><p>The coefficients of MLE are desirable for the following reasons:</p>
-<ul>
-<li><strong>Consistency</strong>: As the sample size(n) increases, MLE estimates converge to the true parameter values. This means that with more data, MLE estimates become more accurate.</li>
-<li><strong>Asymptotic Normality</strong>: Under certain regularity conditions, MLE estimates are approximately normally distributed when the sample size is large. This property allows us to construct confidence intervals and perform hypothesis tests using standard techniques.</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Source: <br><br>
-<strong><a href="https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1">Probability concepts explained: Maximum likelihood estimation</a></strong></p>
-<ul>
-<li>Notion article. Written in English.</li>
-<li>Discussed the import points, but often overlooked, in a plain manner, such as &quot;the difference between likelihood and probability&quot; and &quot;when MLE is the same as the minimizing the residuam sum of squared&quot;.  <br></li>
-</ul>
-<p><strong><a href="https://angeloyeo.github.io/2020/07/17/MLE.html">MLE</a></strong></p>
-<ul>
-<li>Blog article. Written in Korean.</li>
-<li>Has intuitive illustrations, which is very helpful for understanding the concepts of MLE</li>
-</ul>
 
 </div>
 </div>
@@ -1570,6 +1498,8 @@ Licensed under the Apache License, Version 2.0.
       <script src="../../assets/javascripts/bundle.fac441b0.min.js"></script>
       
         <script src="../../adsense.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>

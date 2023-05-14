@@ -9,13 +9,17 @@
       
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="01.t-statistic/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.9">
     
     
       
-        <title>Linear Regression - A Stat Hobbyist's Page</title>
+        <title>Test statistic - A Stat Hobbyist's Page</title>
       
     
     
@@ -57,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#linear-regression" class="md-skip">
+        <a href="#test-statistic" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Linear Regression
+              Test statistic
             
           </span>
         </div>
@@ -191,34 +195,48 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
       
       
+        
+          
+            
+          
         
           
         
       
       
-        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-          Param Estimation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Test Statistics</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Param Estimation
+          Test Statistics
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
           
             
               
@@ -226,8 +244,8 @@
   
   
     <li class="md-nav__item">
-      <a href="01.Maximum_Likelihood_Estimation/" class="md-nav__link">
-        Maximum Likelihood Estimation
+      <a href="01.t-statistic/" class="md-nav__link">
+        01. t-distribution
       </a>
     </li>
   
@@ -261,17 +279,19 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-          Linear Regression
+          Simple Linear Regression
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Linear Regression
+          Simple Linear Regression
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -281,8 +301,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../linear_regression/02.Simple_Linear_Regression_Overview/" class="md-nav__link">
-        Simple Linear Regression Overview
+      <a href="../linear_regression/01.Parameter_Estimation/" class="md-nav__link">
+        01. Parameter Estimation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linear_regression/02.Overview/" class="md-nav__link">
+        02. Concept Overview
       </a>
     </li>
   
@@ -328,9 +362,12 @@
                   
 
 
-<h1 id="linear-regression">Linear Regression</h1>
-<p>Welcome 2222to my statistics blog!</p>
-<p>Here are some of the notebooks I have created</p>
+<h1 id="test-statistic">Test statistic</h1>
+<p>Let me You studied Statistics for 20 hours and you have received 80 points on your mid-term exam. But you were busy during the final exam so you have studied only 15 hours and received 60 points. Now you have concluded that every hour you study is linked to 4 point increase in the statistics exam. During the summer vacation, you have eaten at Burgerking and McDonald's, 5 times each, and supposed that the hamburger of Burgerking weighs more than that of McDonald's. Now you wonder if these relationships, the link between studying hour &amp; grades and the weighter difference of hamburger between Burgerking and McDonald's are coincidental (random) or for real. We can answer this kind of question using <strong>test statistic</strong>. </p>
+<p>Test statistics allow us to quantify how close things are to our expectations or theories. Something that’s not always easy for us to do based on our gut feelings. And test statistics allow us to add a little more mathematical rigor to the process, so that we can make decisions about these questions.</p>
+<div class="arithmatex">\[
+\text{Test Statistic} = \frac{{\text{Observed data} - \text{What we expect if the null is true}}}{\text{Average variation}}
+\]</div>
 
 
 
@@ -374,6 +411,8 @@
       <script src="../assets/javascripts/bundle.fac441b0.min.js"></script>
       
         <script src="../adsense.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>
