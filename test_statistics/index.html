@@ -463,6 +463,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-test-statistic" class="md-nav__link">
+    What is a test statistic?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-calculate-the-test-statistic" class="md-nav__link">
+    How to calculate the test statistic
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -477,8 +499,15 @@
 
 
 <h1 id="test-statistic">Test statistic</h1>
-<p>Let me You studied Statistics for 20 hours and you have received 80 points on your mid-term exam. But you were busy during the final exam so you have studied only 15 hours and received 60 points. Now you have concluded that every hour you study is linked to 4 point increase in the statistics exam. During the summer vacation, you have eaten at Burgerking and McDonald's, 5 times each, and supposed that the hamburger of Burgerking weighs more than that of McDonald's. Now you wonder if these relationships, the link between studying hour &amp; grades and the weighter difference of hamburger between Burgerking and McDonald's are coincidental (random) or for real. We can answer this kind of question using <strong>test statistic</strong>. </p>
-<p>Test statistics allow us to quantify how close things are to our expectations or theories. Something that’s not always easy for us to do based on our gut feelings. And test statistics allow us to add a little more mathematical rigor to the process, so that we can make decisions about these questions.</p>
+<h2 id="what-is-a-test-statistic">What is a test statistic?</h2>
+<p>Let's start our discussion on test statistics with two examples. Imagine you really enjoy eating hamburgers and always weigh them before digging in. During your summer vacation, you had the chance to try hamburgers from both Burger King and McDonald's. You ate at each place five times and noticed that, on average, Burger King hamburgers weigh 5 grams more than McDonald's hamburgers. Now, the question is: is this difference just a coincidence or is there something significant behind it?</p>
+<p>Now, let's talk about another example: the relationship between two variables. For the mid-term exam, you studied chemistry for 20 hours and got a score of 80 points. However, due to being busy, you only studied for 15 hours for the final exam and received a score of 60 points. From this, you concluded that for each hour of study, your score increases by 4 points. The question is: is this relationship true?</p>
+<p>To answer these types of questions, we can use a <strong>test statistic</strong>. It's a useful tool that allows us to examine and draw meaningful conclusions about the validity of such claims. Test statistics allow us to quantify how close things are to our expectations or theories, adding a little more mathematical rigor to the process. That’s not always easy for us to do based on our gut feelings. </p>
+<h2 id="how-to-calculate-the-test-statistic">How to calculate the test statistic</h2>
+<p>We have various test statistics available, such as the Z-statistic, T-statistic, and others. These statistics have a common focus: (1) measuring the difference between two groups, whether they are comparing two observed groups or comparing the observed data to our expectations, and (2) considering the average level of variation that is observed or that we would typically anticipate. When determining if our expectations align with reality, which is represented by the observed data, we need to take into account both the difference and the variation.</p>
+<p>Let's understand this with an example. In the context of elite Olympic athletes competing in the 100-meter freestyle swim, a difference of 1 second between their average completion times can be highly critical. For instance, during the 2020 Tokyo Olympics, the time difference between the gold medalist and the 7th place swimmer in the Men's 100-meter freestyle event was 1 second. Since the records of elite athletes are very close together, even a tenth of a second can determine whether an athlete wins gold or bronze. Thus, a 1-second difference in this scenario holds considerable meaning.</p>
+<p>On the other hand, when examining the average completion times of recreational swimmers, a 1-second difference is less meaningful. Non-professional swimmers exhibit more variation in their performance, with the fastest swimmers finishing a whole minute ahead of the slower swimmers. In this context, a 1-second difference between two groups of recreational swimmers is relatively small compared to the natural variation we expect to see. Even if their true underlying times were the same, random variation could cause a difference of 10 or more seconds between the two groups. In summary, the difference in record times would be much smaller for randomly sampled groups of elite swimmers, while the difference would be more significant for groups of recreational swimmers.</p>
+<p>This is why the formula used to calculate test statistics considers these two factors altogether as follows:</p>
 <div class="arithmatex">\[
 \text{Test Statistic} = \frac{{\text{Observed data} - \text{What we expect if the null is true}}}{\text{Average variation}}
 \]</div>
